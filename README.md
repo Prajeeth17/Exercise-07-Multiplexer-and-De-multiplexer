@@ -84,7 +84,7 @@ or(Y,P,Q,R,S);
 endmodule
 ```
 Demultiplexer:
-```
+```verilog
 module demux(Y0,Y1,Y2,Y3,S0,S1,I);
 input I,S0,S1;
 output Y0,Y1,Y2,Y3;
